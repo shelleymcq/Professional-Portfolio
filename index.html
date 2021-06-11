@@ -3,24 +3,22 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
+    <title>McHardy Portfolio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-  <body>
-
-
+  <body class="has-background-success-light">
    
     <section class="hero had-overlay-image is-warning">
       <nav class="breadcrumb pt-3 is-centered" aria-label="breadcrumbs">
         <ul>
           <li><a href="#project-one">Work</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Resume</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
         <div class="hero-body mb-6 has-text-centered">
-          <p class="title">
+          <p class="title is-2">
             Shelley McHardy
           </p>
           <p class="subtitle">
@@ -40,11 +38,11 @@
 
     <section>
       <div class="container is-max-desktop">
-        <div class="tile is-parent is-vertical mt-6 mx-6 px-6">
+        <div class="tile is-parent is-vertical my-6 mx-6 px-6">
 
           <article class="tile is-child box">
             <a href="https://shelleymcq.github.io/Project-getHAPI/" target="_blank">
-            <p class="title" id="project-one">Project getH.API</p>
+            <p class="title is-4" id="project-one">Project getH.API</p>
             <figure class="image is-4x3">
               <img src="./assets/images/getHAPI.png">
             </figure>
@@ -87,7 +85,7 @@
 
           </div>
 
-          <div class="tile is-ancestor">
+          <!-- <div class="tile is-ancestor">
             <div class="tile is-parent">
               <article class="tile is-child box">
                 <p class="subtitle">Five</p>
@@ -105,14 +103,41 @@
                 <p class="subtitle">Seven</p>
               </article>
             </div>
-
-          </div>
+          </div> -->
 
         </div>
       </div>
     </section>
 
+    <section>
 
+      <div class="tile is-ancestor px-4 py-6 has-background-success-dark">
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <p class="title" id="about">About Me</p>
+            <p class="subtitle">With an image</p>
+            <figure class="image is-4by3">
+              <img src="https://bulma.io/images/placeholders/640x480.png">
+            </figure>
+          </article>
+        </div>
+
+        <div class="tile">
+          <div class="tile is-parent is-vertical">
+            <article class="tile is-child box">
+              <p class="title" id="resume">Resume</p>
+              <p class="subtitle">Top box</p>
+            </article>
+            <article class="tile is-child box">
+              <p class="title" id="contact">Contact</p>
+              <p class="subtitle">Bottom box</p>
+            </article>
+          </div>
+        </div>
+
+      
+      
+    </section>
 
   <script src="assets/js/script.js"></script>
 
