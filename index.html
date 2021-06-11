@@ -3,26 +3,28 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>McHardy Portfolio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"></link>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <title>McHardy Portfolio</title>
+
 </head>
-  <body class="has-background-success-light">
+  <body class="has-background-warning-light">
    
-    <section class="hero had-overlay-image is-warning">
-      <nav class="breadcrumb pt-3 is-centered" aria-label="breadcrumbs">
+    
+    <section class="hero is-warning">
+      <nav class="breadcrumb has-text-info pt-3 is-centered" aria-label="breadcrumbs">
         <ul>
           <li><a href="#project-one">Work</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#resume">Resume</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="hero-body mb-6 has-text-centered">
           <p class="title is-2">
             Shelley McHardy
           </p>
           <p class="subtitle">
-            front end web developer
+            chemistry teacher & front end web developer
           </p>
         </div>
       </nav>
@@ -42,7 +44,7 @@
 
           <article class="tile is-child box">
             <a href="https://shelleymcq.github.io/Project-getHAPI/" target="_blank">
-            <p class="title is-4" id="project-one">Project getH.API</p>
+            <p class="title has-text-info is-4" id="project-one">Project getH.API</p>
             <figure class="image is-4x3">
               <img src="./assets/images/getHAPI.png">
             </figure>
@@ -53,7 +55,7 @@
             <div class="tile is-parent">
               <article class="tile is-child box">
                 <a href="https://shelleymcq.github.io/Work-Day-Scheduler/" target="_blank">
-                <p class="subtitle">Day Planner</p>
+                <p class="subtitle has-text-info">Day Planner</p>
                 <figure class="image is-4x3">
                   <img src="./assets/images/day-planner.png">
                 </figure>
@@ -64,7 +66,7 @@
             <div class="tile is-parent">
               <article class="tile is-child box">
                 <a href="https://shelleymcq.github.io/Password-Generator/" target="_blank">
-                <p class="subtitle">Password Generator</p>
+                <p class="subtitle has-text-info">Password Generator</p>
                 <figure class="image is-4x3">
                   <img src="./assets/images/password-generator.png">
                 </figure>
@@ -75,7 +77,7 @@
             <div class="tile is-parent">
               <article class="tile is-child box">
                 <a href="https://shelleymcq.github.io/HW01-Refactor/" target="_blank">
-                <p class="subtitle">Refactor</p>
+                <p class="subtitle has-text-info">Refactor</p>
                 <figure class="image is-4x3">
                   <img src="./assets/images/refactor.png">
                 </figure>
@@ -84,6 +86,8 @@
             </div>
 
           </div>
+
+          <!-- placeholders for additional projects -->
 
           <!-- <div class="tile is-ancestor">
             <div class="tile is-parent">
@@ -109,45 +113,66 @@
       </div>
     </section>
 
+    <section>          
+      <div class="container px-5">
+        <figure class="image is-128x128" id="mchardy-fire">
+          <img class="is-rounded" src="./assets/images/head.JPG">
+        </figure>
+      </div>
+    </section>
+
     <section>
 
-      <div class="tile is-ancestor px-4 py-6 has-background-success-dark">
-        <div class="tile is-parent">
-          <article class="tile is-child box">
-            <p class="title" id="about">About Me</p>
-            <p class="subtitle">With an image</p>
-            <figure class="image is-4by3">
-              <img src="https://bulma.io/images/placeholders/640x480.png">
-            </figure>
+      <div class="tile is-ancestor px-4 py-6 has-background-info-dark">
+        <div class="tile is-parent has-text-right">
+          <article class="tile is-child py-6 box">
+            <p class="title" id="about">Hi, I'm Shelley McHardy.</p>
+            <p class="subtitle">All the interesting stuff about me...</p>
+
+            <div id="contact">
+              <a class="button is-medium is-github is-info is-outlined" href="https://github.com/shelleymcq" target="_blank">
+                <span class="icon">
+                  <i class="fab fa-github-square fa-lg"></i>
+                </span>
+              </a>
+              <a class="button is-medium is-linkedin is-info is-outlined" href="https://www.linkedin.com/in/shelleymchardy/" target="_blank">
+                <span class="icon">
+                  <i class="fab fa-linkedin fa-lg"></i>
+                </span>
+              </a>
+              <a class="button is-medium is-twitter is-info is-outlined" href="https://twitter.com/shelleymcqDev" target="_blank">
+                <span class="icon">
+                  <i class="fab fa-twitter fa-lg"></i>
+                </span>
+              </a>
+
+              <a class="button is-medium is-info is-outlined" href="mailto:shelleymcq.dev@gmail.com">shelleymcq.dev@gmail.com</a>
+
+            </div>
+
+
+            <!-- <figure class="image is-128x128">
+              <img src="./assets/images/poppies.jpg">
+            </figure> -->
+            
           </article>
         </div>
-
-        <div class="tile">
-          <div class="tile is-parent is-vertical">
-            <article class="tile is-child box">
-              <p class="title" id="resume">Resume</p>
-              <p class="subtitle">Top box</p>
-            </article>
-            <article class="tile is-child box">
-              <p class="title" id="contact">Contact</p>
-              <p class="subtitle">Bottom box</p>
-            </article>
-          </div>
-        </div>
+        <a href="https://www.linkedin.com/in/shelleymchardy/" target="_blank">
 
     </section>
 
-    <footer class="footer has-background-warning">
-      <div class="content has-text-centered">
+
+
+    <footer class="footer has-background-warning py-5">
+      <div class="content has-text-info has-text-centered">
         <p>
-          <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-          is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+          Made with HTML, CSS, Bulma, & &#128153 by <strong>Shelley McHardy</strong>
         </p>
       </div>
     </footer>
 
-  <script src="assets/js/script.js"></script>
+
+    <script src="assets/js/script.js"></script>
 
   </body>
 </html>
