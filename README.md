@@ -1,1 +1,12 @@
 # Professional-Portfolio
+
+Updated professional portfolio showcasing my increasing skill in HTML and CSS. 
+
+Deployed application:
+https://shelleymcq.github.io/Professional-Portfolio/
+
+![screenshot of page](./assets/images/portfolio-screenshot.PNG)
+
+Created with HTML, CSS, and Bulma.
+
+Contact: shelleymcq.dev@gmail.com
