@@ -1,6 +1,6 @@
 # Professional-Portfolio
 
-Updated professional portfolio showcasing my increasing skill in HTML and CSS. 
+Updated professional portfolio showcasing my increasing skill in JavaScript, node.js, and MySQL. 
 
 Deployed application:
 https://shelleymcq.github.io/Professional-Portfolio/
