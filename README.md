@@ -5,7 +5,7 @@ Updated professional portfolio showcasing my increasing skill in JavaScript, nod
 Deployed application:
 https://shelleymcq.github.io/Professional-Portfolio/
 
-![screenshot of page](./assets/images/portfolio-screenshot.PNG)
+![screenshot](./assets/images/portfolio-screenshot.PNG)
 
 Created with HTML, CSS, and Bulma.
 
