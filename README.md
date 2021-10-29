@@ -1,6 +1,6 @@
 # Professional-Portfolio
 
-Updated professional portfolio showcasing my increasing skill in JavaScript, node.js, and MySQL. 
+Updated professional portfolio showcasing my increasing skill in HTML, CSS, JavaScript, Node.js, MySQL, Sequelize, and Handlebars. 
 
 Deployed application:
 https://shelleymcq.github.io/Professional-Portfolio/
